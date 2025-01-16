@@ -1,10 +1,3 @@
-/*Write a java program to create a class named Fuel which
-contains two static float data member ratePetrol and rateDiesel having initial
-values Rs 20 and Rs 10 respectively. Assume on creation of every object of
-Fuel class the rate of petrol and diesel will be hiked automatically by 10%.
-Display initial fuel rate. Next create 5 objects of Fuel class and display fuel
-rate immediate after creation each object. (use of static variable and method) */
-
 class Fuel {
     static float ratePetrol;
     static float rateDiesel;
