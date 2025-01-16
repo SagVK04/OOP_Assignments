@@ -1,14 +1,3 @@
-/*Create an interface Department containing attributes deptName and deptHead. It
-also has abstract methods display DeptData(). Create a class Hostel containing hostel
-Name, hostelLocation and RoomNo. The Hostel class contains methods readHostel
-Data() and display Hostel Info() to read and display the hostel informations. Next
-create a Student class which extending the Hostel class and implementing the
-Department interface. The Student class contains attributes studentName, regdNo,
-electiveSubject and avgMarks. Write suitable readStudentInfo() and
-displayStudentInfo() methods to read and display the Student details. Now create an
-object of Student class to read and display:
-(a) Student Information (b) his/her Department Information (c) his/her Hostel Information*/
-
 import java.util.*;
 interface Department{
 	String deptName="CSE";
