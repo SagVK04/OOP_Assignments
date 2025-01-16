@@ -17,6 +17,6 @@ class p5{
         if(val<10 || val>50)
             throw new NumberOutOfRangeException(val+" is out of range!");
         else
-            System.out.println("No exception!");
+            System.out.println("Square of "+val+" is: "+(val*val));
     }
 }
